@@ -87,21 +87,21 @@ Learn how to install, update, and remove software packages.
                                         mv	                Moves or renames files/directories	            mv oldname.txt newname.txt
                                         rm	                Deletes files or directories	                rm -r myfolder
                                         cat	                Displays the contents of a file	                cat file.txt
-    System Information	                whoami	            Shows the current logged-in user	            whoami
+    System Information	               whoami	            Shows the current logged-in user	            whoami
                                         uname	            Displays system information	                    uname -a
                                         df	                Shows disk space usage                         	df -h
                                         free	            Displays memory usage	                        free -m
     File Permissions                	chmod	            Changes file permissions	                    chmod script.sh
                                         chown	            Changes file ownership	                        chown user:group file.txt
-    Process Management	                ps	                Lists running processes	                        ps aux
+    Process Management	               ps	                Lists running processes	                        ps aux
                                         kill	            Terminates a process by PID	                    kill 
                                         top	                Displays real-time system processes	            top
     Search/Text Processing	            grep	            Searches for text patterns in files         	grep "error" logfile.txt
                                         find	            Searches for files/directories              	find / -name "myfile.txt"
                                         wc	                Counts lines, words, or characters in a file    wc -l file.txt
-    Package Management	                apt	                Manages packages (Debian/Ubuntu)	            sudo apt update
+    Package Management	               apt	                Manages packages (Debian/Ubuntu)	            sudo apt update
     Miscellaneous	                    echo	            Prints text to the terminal	                    echo "Hello, World!"
                                         man	                Displays the command manual	                    man ls
                                         sudo	            Runs a command as a superuser	                sudo apt update
-                                        
+
                                         
