@@ -18,4 +18,8 @@ This project is a way for me to document what I’ve learned and share it with o
 
 Feel free to explore and use the code. If you have any questions or suggestions, let me know through issues!
 
+# Note
+I will keep updating this repository with new knowledge and skills I acquire as I progress in my learning journey. Each time I learn something new, I will commit and push it here for future reference and sharing.
+
+
    
