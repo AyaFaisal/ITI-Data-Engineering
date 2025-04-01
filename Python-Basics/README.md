@@ -9,75 +9,76 @@ This folder contains basic Python concepts, including variables, loops, function
 ## 1. Data Types
 Python has several built-in data types used to store and manipulate different kinds of data.
 
-| Type   | Description                                Example                        
-|--------|-------------------------------------|--------------------------------
-| `int`  | Integer numbers                     | `x = 10`                       
-| `float`| Decimal numbers                     | `y = 10.5`                     
-| `str`  | Strings (text)                      | `name = "Python"`              
-| `bool` | Boolean values (True or False)      | `is_active = True`             
-| `list` | List (mutable collection)           | `fruits = ["apple", "banana"]` 
-| `tuple`| Tuple (immutable collection)        | `colors = ("red", "green")`    
-| `dict` | Dictionary (key-value pairs)        | `person = {"name": "John", "age": 30}`
+        | Type   | Description                         |       Example                        
+        |--------|-------------------------------------|--------------------------------
+        | `int`  | Integer numbers                     | `x = 10`                       
+        | `float`| Decimal numbers                     | `y = 10.5`                     
+        | `str`  | Strings (text)                      | `name = "Python"`              
+        | `bool` | Boolean values (True or False)      | `is_active = True`             
+        | `list` | List (mutable collection)           | `fruits = ["apple", "banana"]` 
+        | `tuple`| Tuple (immutable collection)        | `colors = ("red", "green")`    
+        | `dict` | Dictionary (key-value pairs)        | `person = {"name": "John", "age": 30}`
 
 ## 2. Variables
  Variables are used to store data in memory, which can be referenced and manipulated in the program.
 
 ### Example:
 
-name = "dodo"
-age = 25
-height = 1.75
-is_student = False
+    name = "dodo"
+    age = 25
+    height = 1.75
+    is_student = False
 =============================================================================
 ## 3.Arithmetic Operators
  Python supports basic arithmetic operations that allow you to perform calculations.
 
 
- Operator                  	       Description	                    Example
-    +	                            Addition	                     x + y
-    -	                            Subtraction	                     x - y
-    *	                            Multiplication                   x * y
-    /	                            Division	                     x / y
-    %	                            Modulo (remainder)	             x % y
-    **	                            Exponentiation (power) 	         x ** y
+    Operator                  	       Description	                    Example
+        +	                            Addition	                     x + y
+        -	                            Subtraction	                     x - y
+        *	                            Multiplication                   x * y
+        /	                            Division	                     x / y
+        %	                            Modulo (remainder)	             x % y
+        **	                            Exponentiation (power) 	         x ** y
 
  ## Example:
-x = 10
-y = 3
+    x = 10
+    y = 3
 
-print(x + y)  # 13
-print(x - y)  # 7
-print(x * y)  # 30
-print(x / y)  # 3.3333
-print(x % y)  # 1
-print(x ** y) # 1000
+    print(x + y)  # 13
+    print(x - y)  # 7   
+    print(x * y)  # 30
+    print(x / y)  # 3.3333
+    print(x % y)  # 1
+    print(x ** y) # 1000
 =======================================================
  # 4.Conditional Statements
   Conditional statements are used to make decisions in the program based on conditions.   
        
  ## Example:
-age = 18
+    age = 18
 
-if age >= 18:
-    print("Allowed")
-else:
-    print("Not allowed")
+    if age >= 18:
+        print("Allowed")
+    else:
+        print("Not allowed")
      
 ====================================================================
 
-# 5.Loops---
+# 5.Loops
  Loops allow you to repeat a block of code multiple times.
 
- ** For Loop ** 
+  # For Loop ** 
 ## Example:
 
           for i in range(5):
     print(i)  # 0, 1, 2, 3, 4
         
-** While Loop **
+ # While Loop **
 ## Example
     x = 0
-while x < 5:
+    while x < 5:
+
     print(x)
     x += 1
     
