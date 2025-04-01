@@ -77,7 +77,7 @@ Learn how to install, update, and remove software packages.
  
     Category            	            Command	                     Use	                                 Example
     File/Directory Navigation
-    	                                pwd     	        Prints the current directory path	
+    	                                pwd     	        Prints the current directory path	            pwd
                                         ls	                Lists directory contents	                    ls -l
                                         cd	                Changes the current directory	                cd /var/www
                                         mkdir	            Creates a new directory	                        mkdir test_folder
@@ -103,3 +103,5 @@ Learn how to install, update, and remove software packages.
     Miscellaneous	                    echo	            Prints text to the terminal	                    echo "Hello, World!"
                                         man	                Displays the command manual	                    man ls
                                         sudo	            Runs a command as a superuser	                sudo apt update
+                                        
+                                        
